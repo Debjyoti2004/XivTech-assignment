@@ -1,7 +1,7 @@
 # Hello World Kubernetes Deployment
 This project demonstrates deploying a simple "Hello, World" web application using NGINX on a local Kubernetes cluster with Minikube.
 
-📁 ## Project Structure
+## 📁 Project Structure
 ```
 .
 ├── app
