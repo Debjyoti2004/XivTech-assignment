@@ -60,5 +60,5 @@ Expected Output:
 Hello, World from Kubernetes!
 ```
 ## 🎥 Demo Video
-A walkthrough video demonstrating the full setup is available in the demo/ directory:
+A walkthrough video demonstrating the full setup is available in the:
 📁 demo/debjyoti-demo.mp4
