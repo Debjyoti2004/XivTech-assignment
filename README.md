@@ -2,6 +2,7 @@
 This project demonstrates deploying a simple "Hello, World" web application using NGINX on a local Kubernetes cluster with Minikube.
 
 📁 ## Project Structure
+```
 .
 ├── app
 │   └── index.html              # Simple HTML page served by NGINX
@@ -10,12 +11,11 @@ This project demonstrates deploying a simple "Hello, World" web application usin
     ├── deployment.yaml         # Kubernetes Deployment manifest
     ├── namespace.yaml          # (Optional) Namespace manifest
     └── service.yaml            # Kubernetes Service (ClusterIP) manifest
-
-    
-🚀 ## Objective
+```
+## 🚀  Objective
 Deploy a custom NGINX Docker container that serves a static "Hello, World" HTML page on a local Kubernetes cluster using Minikube.
 
-🧱 ## Prerequisites
+## 🧱 Prerequisites
 Docker
 
 kubectl
@@ -23,7 +23,7 @@ kubectl
 Minikube
 
 
-🛠️ ## Setup Instructions
+## 🛠️ Setup Instructions
 1. Start Minikube
 ```sh
 minikube start
@@ -59,6 +59,6 @@ Expected Output:
 ```
 Hello, World from Kubernetes!
 ```
-🎥 Demo Video
+## 🎥 Demo Video
 A walkthrough video demonstrating the full setup is available in the demo/ directory:
 📁 demo/video.mp4
