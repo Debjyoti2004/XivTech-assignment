@@ -45,7 +45,7 @@ Get the pod name:
 ```
 kubectl get pods
 ```
-Port forward to access NGINX (replace <pod-name>):
+Port forward to access NGINX:
 
 ```
 kubectl port-forward svc/<svc-name> 8080:80
@@ -61,4 +61,4 @@ Hello, World from Kubernetes!
 ```
 ## 🎥 Demo Video
 A walkthrough video demonstrating the full setup is available in the demo/ directory:
-📁 demo/video.mp4
+📁 demo/debjyoti-demo.mp4
